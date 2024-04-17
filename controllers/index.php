@@ -10,5 +10,5 @@ $params = [];
 $db = new Database($config);
 $books = $db->execute($query, $params)->fetchALL();
 
-require "views/index.view.php";
+require "views/index_view.php";
 //  var_dump($events);

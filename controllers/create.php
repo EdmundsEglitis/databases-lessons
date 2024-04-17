@@ -31,4 +31,4 @@ if(empty($errors)){
 
 }
 
-require "views/create.view.php";
+require "views/create_view.php";
