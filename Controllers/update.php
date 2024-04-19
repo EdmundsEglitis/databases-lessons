@@ -37,6 +37,7 @@ $params = [
 ];
 
 $book = $db->execute($query, $params)->fetch();
+
 }
 
 require "views/update_view.php";
