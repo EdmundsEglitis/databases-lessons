@@ -36,4 +36,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
     
         
-        require "views/login_view.php";
+        require "views/user_view/login_view.php";

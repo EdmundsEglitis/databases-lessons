@@ -1,4 +1,5 @@
-
+<link rel="stylesheet" href="style.css">
+<?php require "components/nav.php" ?>
 <?php if (isset($_SESSION["Admin"])) { ?>
 
 <h1>update a post </h1>
